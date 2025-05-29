@@ -8,21 +8,31 @@ Welcome to the sleek, animated, markdown-ready front-end for your custom LLM cha
 [👉 Click here to try it live](https://react-llm-chat.vercel.app/)
 
 ## ✨ Features
-- 🎨 Typewriter text animation
+- 🎨 Typewriter text animation (future)
 - 💬 Scrollable chat history with auto-scroll
 - 🌗 Dark/Light mode toggle
 - 🧠 Markdown rendering with syntax highlighting
 - 🐱 Custom Lottie loader animation (RainbowCat!)
-- 💡 Environment variable driven API endpoint (Vite)
+- 💡 Environment variable-driven API endpoint (Vite)
+- 🌐 Internet searchable (future)
 
 ## 🔧 Tech Stack
+
+### Front-End
 - **React 18** + **Vite**
 - **TypeScript**
 - **ReactMarkdown** + **Prism** for code blocks
 - **Lottie-React** for playful loaders
 - **Tailored CSS** (responsive, minimal-glass look)
 
-## 🚀 Getting Started
+### Back-End
+= **Node.js** + **Express**
+- **dotenv for secure environment variables**
+- **CORS enabled for cross-origin frontend access**
+- **OpenAI API (via fetch)**
+
+  
+## 🚀 Getting Started (To Clone)
 
 ```bash
 git clone https://github.com/LewallenAE/react-llm-chat.git
