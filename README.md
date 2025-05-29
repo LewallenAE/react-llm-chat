@@ -50,7 +50,7 @@ npm run dev
 
 ---
 
-## 👨‍💻 Author
+##👨‍💻 Author
 
 **Anthony Lewallen**  
 [GitHub](https://github.com/LewallenAE) | [LinkedIn](https://linkedin.com/in/anthony-lewallen)
