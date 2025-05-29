@@ -1,54 +1,32 @@
-# React + TypeScript + Vite
+# 🤖 React LLM Chat UI – *Eugenius at your service...*
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the sleek, animated, markdown-ready front-end for your custom LLM chatbot, **Eugenius**. Designed with personality, performance, and a polished developer experience in mind.
 
-Currently, two official plugins are available:
+![Eugenius Screenshot](public/ai-background.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
+[👉 Click here to try it live](https://your-live-demo-link.vercel.app)
 
-## Expanding the ESLint configuration
+## ✨ Features
+- 🎨 Typewriter text animation
+- 💬 Scrollable chat history with auto-scroll
+- 🌗 Dark/Light mode toggle
+- 🧠 Markdown rendering with syntax highlighting
+- 🐱 Custom Lottie loader animation (RainbowCat!)
+- 💡 Environment variable driven API endpoint (Vite)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🔧 Tech Stack
+- **React 18** + **Vite**
+- **TypeScript**
+- **ReactMarkdown** + **Prism** for code blocks
+- **Lottie-React** for playful loaders
+- **Tailored CSS** (responsive, minimal-glass look)
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🚀 Getting Started
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+```bash
+git clone https://github.com/LewallenAE/react-llm-chat.git
+cd react-llm-chat
+npm install
+echo "VITE_API_URL=http://localhost:3000" > .env.local
+npm run dev
