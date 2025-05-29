@@ -2,7 +2,7 @@
 
 Welcome to the sleek, animated, markdown-ready front-end for your custom LLM chatbot, **Eugenius**. Designed with personality, performance, and a polished developer experience in mind.
 
-![Eugenius Screenshot](public/ai-background.png)
+![Eugenius Screenshot](public/Eugenius.png)
 
 ## 🌐 Live Demo
 [👉 Click here to try it live](https://your-live-demo-link.vercel.app)
