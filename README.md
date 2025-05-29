@@ -5,7 +5,7 @@ Welcome to the sleek, animated, markdown-ready front-end for your custom LLM cha
 ![Eugenius Screenshot](public/Eugenius.png)
 
 ## 🌐 Live Demo
-[👉 Click here to try it live](https://your-live-demo-link.vercel.app)
+[👉 Click here to try it live](https://react-llm-chat.vercel.app/)
 
 ## ✨ Features
 - 🎨 Typewriter text animation
