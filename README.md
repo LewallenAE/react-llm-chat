@@ -46,18 +46,20 @@ cd react-llm-chat
 npm install
 echo "VITE_API_URL=http://localhost:3000" > .env.local
 npm run dev
+```
 
 
----
 
 ##👨‍💻 Author
 
-**Anthony Lewallen**  
+**Anthony Lewallen**
+
 [GitHub](https://github.com/LewallenAE) | [LinkedIn](https://linkedin.com/in/anthony-lewallen)
 
----
+ 
 
 ## 🧠 License
+
 [MIT](LICENSE)
 
 > This project is built with purpose, precision, and personality. – *Eugenius*
