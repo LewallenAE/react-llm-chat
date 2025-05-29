@@ -1,6 +1,12 @@
 # 🤖 React LLM Chat UI – *Eugenius at your service...*
 
 Welcome to the sleek, animated, markdown-ready front-end for your custom LLM chatbot, **Eugenius**. Designed with personality, performance, and a polished developer experience in mind.
+## 📚 Table of Contents
+- [Live Demo](#-live-demo)
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Getting Started](#-getting-started-to-clone)
+
 
 ![Eugenius Screenshot](public/Eugenius.png)
 
@@ -26,7 +32,7 @@ Welcome to the sleek, animated, markdown-ready front-end for your custom LLM cha
 - **Tailored CSS** (responsive, minimal-glass look)
 
 ### Back-End
-= **Node.js** + **Express**
+- **Node.js** + **Express**
 - **dotenv for secure environment variables**
 - **CORS enabled for cross-origin frontend access**
 - **OpenAI API (via fetch)**
@@ -40,3 +46,19 @@ cd react-llm-chat
 npm install
 echo "VITE_API_URL=http://localhost:3000" > .env.local
 npm run dev
+
+
+---
+
+## 👨‍💻 Author
+
+**Anthony Lewallen**  
+[GitHub](https://github.com/LewallenAE) | [LinkedIn](https://linkedin.com/in/anthony-lewallen)
+
+---
+
+## 🧠 License
+[MIT](LICENSE)
+
+> This project is built with purpose, precision, and personality. – *Eugenius*
+
