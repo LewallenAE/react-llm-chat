@@ -1,43 +1,57 @@
 # 🤖 React LLM Chat UI – *Eugenius at your service...*
 
-Welcome to the sleek, animated, markdown-ready front-end for your custom LLM chatbot, **Eugenius**. Designed with personality, performance, and a polished developer experience in mind.
+Welcome to the sleek, animated, markdown-ready front-end for your custom LLM chatbot: **Eugenius**.  
+Named after my middle name *Eugene* (and “You Genius”), this project is designed with **personality, performance**, and a polished developer experience in mind.
+
+---
+
 ## 📚 Table of Contents
-- [Live Demo](#-live-demo)
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Getting Started](#-getting-started-to-clone)
+- [🌐 Live Demo](#-live-demo)
+- [✨ Features](#-features)
+- [🔧 Tech Stack](#-tech-stack)
+- [🚀 Getting Started (To Clone)](#-getting-started-to-clone)
+- [👨‍💻 Author](#-author)
+- [🧠 License](#-license)
 
+---
 
-![Eugenius Screenshot](public/Eugenius.png)
+![Screenshot of Eugenius UI](public/Eugenius.png)
+
+---
 
 ## 🌐 Live Demo
-[👉 Click here to try it live](https://react-llm-chat.vercel.app/)
+👉 [Click here to try it live](https://react-llm-chat.vercel.app/)
+
+---
 
 ## ✨ Features
-- 🎨 Typewriter text animation (future)
-- 💬 Scrollable chat history with auto-scroll
-- 🌗 Dark/Light mode toggle
-- 🧠 Markdown rendering with syntax highlighting
+- 🎨 Typewriter text animation *(coming soon!)*
+- 💬 Scrollable chat history with smooth auto-scroll
+- 🌗 Dark/Light mode toggle (with persistence)
+- 🧠 GPT-4 replies rendered in Markdown + syntax-highlighted code blocks
 - 🐱 Custom Lottie loader animation (RainbowCat!)
-- 💡 Environment variable-driven API endpoint (Vite)
-- 🌐 Internet searchable (future)
+- 🌐 Environment-based API endpoint (via Vite)
+- 🔍 Future: Indexed for public search visibility
+
+---
 
 ## 🔧 Tech Stack
 
-### Front-End
+### 🖥️ Front-End
 - **React 18** + **Vite**
 - **TypeScript**
-- **ReactMarkdown** + **Prism** for code blocks
-- **Lottie-React** for playful loaders
-- **Tailored CSS** (responsive, minimal-glass look)
+- **ReactMarkdown** + **Prism** for syntax highlighting
+- **Lottie-React** for animated loaders
+- **Custom CSS** with a responsive, minimal-glass aesthetic
 
-### Back-End
+### ⚙️ Back-End
 - **Node.js** + **Express**
-- **dotenv for secure environment variables**
-- **CORS enabled for cross-origin frontend access**
 - **OpenAI API (via fetch)**
+- **CORS** enabled
+- **dotenv** for secure environment configs
 
-  
+---
+
 ## 🚀 Getting Started (To Clone)
 
 ```bash
@@ -46,21 +60,3 @@ cd react-llm-chat
 npm install
 echo "VITE_API_URL=http://localhost:3000" > .env.local
 npm run dev
-```
-
-
-
-##👨‍💻 Author
-
-**Anthony Lewallen**
-
-[GitHub](https://github.com/LewallenAE) | [LinkedIn](https://linkedin.com/in/anthony-lewallen)
-
- 
-
-## 🧠 License
-
-[MIT](LICENSE)
-
-> This project is built with purpose, precision, and personality. – *Eugenius*
-
